@@ -46,7 +46,7 @@ function current(){
     <div class="card border-white bg-transparent " style="max-width: 18rem;">
     <div id="day" class="card-header text-center bg-transparent border-white">Today</div>
     <div class="card-body">
-      <h5 class="card-title">${locationInfo}</h5>
+      <h4 class="">${locationInfo}</h4>
       <h4 class="fw-bolder">${temp}<sup>o</sup>C</h4>
       
 
