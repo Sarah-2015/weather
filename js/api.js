@@ -43,7 +43,7 @@ function current(){
 
     let cont=`
     <div class="col-md-4 text-white fw-bolder text-center">
-    <div class="card border-white bg-transparent " style="max-width: 18rem;">
+    <div class="card border-white bg-transparent ">
     <div id="day" class="card-header text-center bg-transparent border-white">Today</div>
     <div class="card-body">
       <h4 class="">${locationInfo}</h4>
@@ -79,7 +79,7 @@ function display(){
     for(let i=1;i<weatherArr.length;i++)
      {
         cont+=`<div class="col-md-4  text-white">
-        <div class="card border-white bg-transparent  " style="max-width: 18rem;">
+        <div class="card border-white bg-transparent  " >
         <div class="card-header text-center  bg-transparent border-white">${weatherArr[i].date}</div>
         <div class="card-body text-center ">
         
