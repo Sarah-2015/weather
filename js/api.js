@@ -16,7 +16,7 @@ let searchInput= document.getElementById("search")
 }
  async function getForecast(city='cairo'){
 
-    let forecast= await fetch(`http://api.weatherapi.com/v1/forecast.json?key=baaa49c31fd54ddaaa8152434221010&q=${city}&days=3`)
+    let forecast= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=beaa6830775a4e99910131438220406&q=${city}&days=3`)
     weather = await forecast.json()
     locationInfo= weather.location.name
     temp = weather.current.temp_c
